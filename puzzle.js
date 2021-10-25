@@ -153,17 +153,20 @@ let puzzle;
 let imgCb;
 let song;
 let sound;
+let bgImg;
 
 function preload() {
     imgCb = loadImage("images/overview_2.jpg");
     song = loadSound('audio/audio_page1audio.ogg');
     sound = loadSound('audio/popsound.mp3');
+    bgImg = loadImage("images/backgd_2.png");
 
     //可添加圖片連接,225*225
 }
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
+    background = (bgImg);
     var x0 = windowWidth / 4 - imgCb.width / 4;
     var y0 = windowHeight / 4 - imgCb.height / 4;
     puzzle = new Puzzle(x0, y0, imgCb, 4);
