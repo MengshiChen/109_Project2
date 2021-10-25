@@ -43,12 +43,6 @@ li img {
   height: auto;
 }
 
-a {
-  color: #F2E307;
-}
-a:hover, a:visited:hover {
-  color: #77D9A1;
-}
 h1 {
   font-style: italic;
   color: #50C100;
@@ -56,19 +50,4 @@ h1 {
 h2 {
   font-style: bold;
   color: #13C9F2;
-}
-h3 {
-  color: #0050C1;
-}
-h4 {
-  text-decoration: underline;
-}
-p{
-  color: #50C100;
-  font-weight: bold;
-}
-
-#myCamera{
-  float: left;
-
 }
