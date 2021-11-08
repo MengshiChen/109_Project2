@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+
+html, body {
+     min-height: 90%;
+
+}
+body{
+ background-image:url('../images/backgd_2.png');
+ background-size: 100%;
+ background-position: center top;
+ background-repeat: repeat;
+ height:500px;
+ background-color: #0D1C8C;
+}
+.title{
+  margin: auto;
+ width: 60%;
+/* border: 5px solid #FFFF00; */
+ padding: 10px;
+
+}
+
+h2{
+  text-align: left;
+  font-size: 30px;
+ font-family: 'Architects Daughter', cursive;
+  color:pink;
+}
+.description{
+  margin: auto;
+width: 60%;
+border: 5px solid #FFFF00;
+padding: 10px;
+}
+p{
+  text-align: left;
+  font-size: 18px;
+ font-family: 'Architects Daughter', cursive;
+  color:#FAD230;
+}
+
+.button {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.btn {
+  border: 3px solid orange;
+  padding:10px 30px;
+  color: orange;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+  float: left;
+}
+
+
+.btn-one {
+  padding: 12px 28px;
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: #04BFBF;
+}
+
+.btn-one:hover{
+  color: white;
+  background-color: pink;
+  transition: all 0.5s ease-in;
+}
+
+.btn-two {
+  padding: 12px 28px;
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: #04BFBF;
+}
+
+.btn-two:hover{
+  color:white;
+  background-color: pink;
+  transition: all 0.5s ease-in;
+}
