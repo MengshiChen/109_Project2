@@ -29,6 +29,9 @@ svg#bee {
 a{
   color:#50C100;
 }
+a:hover{
+  color:#A0D2FF;
+}
 button {
   padding: 12px 28px;
   font-family: 'Balsamiq Sans', cursive;
